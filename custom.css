@@ -1,0 +1,19 @@
+:root,
+[data-bs-theme=light]{
+--bs-dark-rgb: 240, 0, 120;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap');
+
+body {font-family:'微軟正黑體', 'Noto Sans TC', sans-serif;}
+
+/*指定根的文字大小，單位是px*/
+html{font-size: 20px;}
+
+h2 {font-size: 1.5rem;font-weight: 900;color:rgb(39, 102, 229);}
+
+.h2-custom-pink{font-size: 3rem;font-weight: 900;color: #FF00C3;} 
+
+footer a {
+    text-decoration: none;
+}
